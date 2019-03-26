@@ -1,0 +1,17 @@
+{
+  "name": "statusland",
+  "version": "1.0.0",
+  "description": "Landing page to display server status",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "George Peppard",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "handlebars": "^4.1.1",
+    "systeminformation": "^4.1.3"
+  }
+}
