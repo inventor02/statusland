@@ -6,7 +6,7 @@ if(process.env.STATUSLAND_PORT != null) {
     const config = require('./config.json');
 } else {
     const config = {
-        port: process.env.STATUSLAND_PORT;
+        port: process.env.STATUSLAND_PORT
     }
 }
 
