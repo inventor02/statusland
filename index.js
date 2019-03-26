@@ -3,7 +3,7 @@ const hbs = require('express-handlebars');
 const si = require('systeminformation');
 
 const config = {
-    port: process.env.STATUSLAND_PORT
+    port: process.env.PORT
 };
 
 const app = express();
