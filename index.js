@@ -2,7 +2,7 @@ const express = require('express');
 const hbs = require('express-handlebars');
 const si = require('systeminformation');
 
-if(process.env.STATUSLAND_PORT != null) {
+if(process.env.STATUSLAND_PORT !== '') {
     const config = require('./config.json');
 } else {
     const config = {
