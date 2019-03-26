@@ -2,13 +2,9 @@ const express = require('express');
 const hbs = require('express-handlebars');
 const si = require('systeminformation');
 
-if(process.env.STATUSLAND_PORT !== '') {
-    const config = require('./config.json');
-} else {
-    const config = {
-        port: process.env.STATUSLAND_PORT
-    }
-}
+const config = {
+    port: process.env.STATUSLAND_PORT
+};
 
 const app = express();
 const port = config.port;
