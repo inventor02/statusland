@@ -12,4 +12,8 @@ Simple landing page for servers displaying system status including platform, upt
 
 https://statusland.herokuapp.com/
 
+## Issue tracking
+
+Issues are tracked on JIRA. This may be viewed at https://georgepeppard.atlassian.net.
+
 Licensed under GPL-3.0.
