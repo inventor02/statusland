@@ -9,7 +9,7 @@
   "author": "George Peppard",
   "license": "GPL-3.0",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-handlebars": "^5.3.1",
     "handlebars": "^4.5.3",
     "systeminformation": "^4.1.3"
